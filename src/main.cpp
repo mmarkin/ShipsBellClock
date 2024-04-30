@@ -23,8 +23,10 @@ void setup()
   wait(100);
   
   // Display version on serial monitor
-  Serial.print("\nNTP Ship's Bell Clock v");
-  Serial.print(VERSION_MAJOR); Serial.print("."); Serial.print(VERSION_MINOR); Serial.println(VERSION_BUILD);
+  //Serial.print("\nNTP Ship's Bell Clock v");
+  //Serial.print(VERSION_MAJOR); Serial.print("."); Serial.print(VERSION_MINOR); Serial.println(VERSION_BUILD);
+
+  Serial.printf("\nNTP Ship's Bell Clock v%i.%i%i\r\n", VERSION_MAJOR, VERSION_MINOR, VERSION_BUILD);
 
   WiFi.hostname("Ship_Bell_Clock");
 
