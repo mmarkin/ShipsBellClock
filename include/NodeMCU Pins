@@ -1,0 +1,15 @@
+
+  Refer to the I/O pins using the ESP/Arduino pin numbers, 
+  but connect to the corresponding pin on the NodeMCU. 
+
+  This file is for information only. It does not get compiled.
+   
+  Pin 0  - NodeMCU D3
+  Pin 2  - NodeMCU D4      
+  Pin 4  - NodeMCU D2    
+  Pin 5  - NodeMCU D1    
+  Pin 12 - NodeMCU D6
+  Pin 13 - NodeMCU D7
+  Pin 14 - NodeMCU D5    
+  Pin 15 - NodeMCU D8
+  Pin 16 - NodeMCU D0     

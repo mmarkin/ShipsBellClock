@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "functional": "cpp",
+        "limits": "cpp"
+    },
+    "C_Cpp.dimInactiveRegions": false,
+    "cmake.configureOnOpen": false
+}

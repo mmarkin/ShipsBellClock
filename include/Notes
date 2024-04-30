@@ -1,0 +1,36 @@
+ 
+ LED data connects to D3.   (ESP pin 0)
+ 
+ LEDs 0 and 1 breathe. 
+ LED 2 is the AM/PM indicator - yellow for AM, green for PM.
+
+ 1k potentiometer connects to +3.3 volts and ground with 3.3 volts at the clockwise end and 
+ ground at the counter-clockwise end. The wiper connects to A0.
+ The LEDs automatically cycle between all the colors if the pot is fully counter-clockwise. 
+ As the pot is rotated clockwise it will set the static color for the LEDs.
+
+ Function button connects to D2 and ground.     (ESP pin 4)
+
+ DF Player TX connects to D7.   (ESP pin 13)
+ DF Player RX connects to D8.   (ESP pin 15)  
+
+ There can be more than one set of chime files provided that each set has 8 files.
+ The file names don't matter, but the files for the first set must be loaded on the player in the following order:
+ one bell, two bells, three bells, four bells, five bells, six bells, seven bells, eigtht bells.
+ If there are more chime sets, the second set would follow in the same order as the first, followed by the third, etc.
+ Just upload the files to the player. The software automatically keeps track of the file numbers if more file sets
+ are added later.
+
+ Function button:
+               
+ Single click - Changes to the next chime file set.
+                The quarter hour chime will sound to confirm the change.
+ Double click - The AM/PM LED flashes white to confirm the change.                
+ Long press   - Advances the time zone in 15-minute increments if you want a different zone than the one the clock 
+                automatically finds based on the geographic location. 
+                The AM/PM LED flashes cyan to confirm the change. 
+                The default time zone used if no geographic information is available is Pacific Standard Time. 
+                This can be changed in the definitions file.
+                
+
+
