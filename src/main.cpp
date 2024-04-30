@@ -8,6 +8,7 @@ void setup()
 {
   Serial.begin(115200);
   wait(500);
+  wait(1000);
 
   display.init();
   display.setBrightness(255);
